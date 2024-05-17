@@ -1,1 +1,108 @@
-@import "./css/header.css";
+#encapezera{
+    width: 100%;
+    height: 120px;
+    background-color: gold;  
+    text-align: center;  
+    color: rgb(19, 22, 15);
+}
+
+#button1{
+    width: 20%;
+    background-color: blueviolet;
+    align-items: center;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    color: beige;
+    font-weight: bold;
+    position: relative;
+}
+
+
+#h2c{
+    height: 30px;
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#p2{
+    height: 70px;
+    width: 100%;
+    position: relative;
+}
+#p2d{
+    width: 50%;
+    height: 70px;
+    position: absolute;
+    right: 0px;
+    background-color: rgb(206, 189, 95);
+    font-weight: bolder;
+    font-size: xx-larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#p2i{
+    width: 50%;
+    height: 70px;
+    position: absolute;
+    left: 0px;
+    background-color: gold;
+    font-size: xx-larger;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#madre{
+    width: 100%;
+    height: 200px;
+    border: 5px solid rgb(26, 4, 4);
+    position: relative;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
+#hijo1{
+    width: 33%;
+    height: 200px;
+    border: 0.01px solid rgb(22, 18, 22);  
+    position: absolute;
+    right: 0px;
+}
+#hijo2{
+    width: 33.2%;
+    height: 200px;
+    border: 1px solid rgb(226, 20, 20);
+    position: absolute;
+    left: 0;
+}
+#hijo3{
+    width: 33.2%;
+    height: 200px;
+    border: 1px solid blue;
+    position: absolute;
+    right: 33% ;
+}
+.img{
+    width: 100px;
+    height: 100px;
+}
+
+#sec3{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(60, 65, 217);
+    border: 5px black;
+    font-size: larger;
+    font-weight: bolder;
+}
+.box1{
+    width: 100%;
+    height: 200px;
+}
+.box2{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+.contenttitle{
+    background-color: blueviolet;
+    font-size: small;
+}
